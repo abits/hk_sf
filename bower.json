@@ -1,0 +1,22 @@
+{
+  "name": "sf_hk",
+  "version": "0.0.0",
+  "authors": [
+    "Chris Martel <chris@codeways.org>"
+  ],
+  "description": "demo app",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "*",
+    "bootstrap": "~3.1.1"
+  }
+}
