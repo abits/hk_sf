@@ -22,7 +22,6 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "bower install",
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
@@ -48,6 +47,14 @@
         },
         "branch-alias": {
             "dev-master": "2.4-dev"
+        },
+        "heroku": {
+            "document-root": "web",
+            "php-config": [
+                "date.timezone=Europe/Berlin",
+                "display_errors=off",
+                "short_open_tag=off"
+            ]
         }
     }
 }
