@@ -1,0 +1,5 @@
+codeways_sfhk_api:
+    resource: "@CodewaysSfhkApiBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
